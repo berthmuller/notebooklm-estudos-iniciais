@@ -63,33 +63,59 @@ Caso Pacaraima: A cidade na fronteira com a Venezuela possui uma adesão superio
 
 # Glossário com os principais conceitos
 1.Pix: É o meio de pagamento instantâneo brasileiro, criado pelo Banco Central, que permite a transferência de recursos entre contas em poucos segundos, disponível 24 horas por dia, todos os dias do ano.
+
 2.Chave Pix: Funciona como um "apelido" para identificar a conta transacional (CPF/CNPJ, e-mail, número de telefone ou chave aleatória), permitindo realizar transações sem a necessidade de informar dados bancários completos como agência e conta.
+
 3.SPI (Sistema de Pagamentos Instantâneos): É a única infraestrutura tecnológica centralizada de liquidação de pagamentos instantâneos entre diferentes instituições no Brasil, sendo operada exclusivamente pelo Banco Central.
+
 4.DICT (Diretório de Contas Transacionais): É o banco de dados unificado que armazena as chaves Pix vinculadas aos dados das contas dos usuários, garantindo que o pagamento chegue ao destino correto.
+
 5.LBTR (Liquidação Bruta em Tempo Real): É o modelo operacional do SPI onde cada transação é liquidada individualmente de forma definitiva, imediata e irrevogável assim que processada.
+
 6.PSP (Provedor de Serviços de Pagamento): São as instituições financeiras (bancos) ou de pagamento (fintechs) autorizadas a oferecer o Pix aos usuários finais, gerenciando suas contas transacionais.
+
 7.MED (Mecanismo Especial de Devolução): Conjunto de regras criado para facilitar a recuperação de valores em casos de suspeita fundamentada de fraude ou falhas operacionais do sistema.
+
 8.QR Code (Estático e Dinâmico): Códigos de barras bidimensionais usados para iniciar pagamentos; o modelo estático pode ser usado para múltiplas transações de valor fixo ou definido pelo pagador, enquanto o dinâmico é gerado exclusivamente para uma única cobrança com informações detalhadas.
+
 9.Pix Saque e Pix Troco: Modalidades que permitem ao usuário retirar dinheiro em espécie diretamente em estabelecimentos comerciais parceiros, seja através de uma transferência pura (Saque) ou como troco em uma compra (Troco).
+
 10.Pix Automático: Recurso focado em pagamentos recorrentes (como contas de luz, escolas ou assinaturas) que ocorrem de forma autorizada e automática, visando substituir o débito automático tradicional.
 
 # Prompts reutilizavési
 
 1. Sobre a Gênese e Motivações Técnicas
+ 
 "Explique os principais motivos estratégicos e institucionais que levaram o Banco Central do Brasil a optar pela criação de uma infraestrutura pública e centralizada (SPI/DICT) para o Pix, em vez de apenas regular arranjos de pagamentos privados."
+
 "Como a experiência internacional (especialmente os casos da Índia e da China) e a entrada de Big Techs no mercado de pagamentos influenciaram o design institucional do Pix?"
+
 2. Sobre Impactos Sociais e Inclusão Financeira
+
 "Quais foram os reais efeitos do Pix na inclusão financeira da população de baixa renda e dos cidadãos anteriormente desbancarizados no Brasil?"
+
 "Analise a 'Geografia do Pix' no Brasil: por que estados de menor renda média (regiões Norte e Nordeste) registram maior frequência de uso por usuário, mas valores médios por transação menores do que o Sul e Sudeste?"
+
 "Explique como as modalidades Pix Saque e Pix Troco beneficiam populações em cidades com baixa infraestrutura bancária e como isso afeta o comércio local."
+
 3. Sobre Benefícios para Usuários e Empresas
+   
 "Quais são os ganhos de eficiência e liquidez para microempreendedores (MEIs) e pequenos comércios com a adoção do Pix em comparação às vendas via cartão de crédito?"
+
 "Descreva os benefícios macroeconômicos do Pix relacionados à velocidade de circulação da moeda e à redução dos custos de manutenção do papel-moeda para o Estado."
+
 4. Sobre Preocupações, Segurança e Riscos
+   
 "Quais são os principais riscos de privacidade levantados pelo uso de chaves Pix vinculadas a dados sensíveis (CPF, e-mail, telefone) e como o sistema se comporta perante a LGPD?"
+
 "Explique as limitações do mecanismo de devolução original (MED) e como o MED 2.0 busca combater a pulverização instantânea de fundos em contas de 'laranjas' por organizações criminosas."
+
 "Analise o crescimento das fraudes por engenharia social no ecossistema do Pix: por que a velocidade da transação é um facilitador para esses crimes e quais as responsabilidades das instituições financeiras nesses casos?"
+
 5. Sobre Evolução e Futuro do Sistema
+   
 "Como a integração entre o Pix e o Open Finance (como no serviço de iniciação de pagamento) altera a jornada do usuário e a competitividade entre bancos e fintechs?"
+
 "Quais as tendências de impacto das novas funcionalidades, como o Pix Automático e o Pix por Aproximação, sobre o mercado tradicional de cartões de crédito e débitos automáticos?"
+
 "Quais são os desafios técnicos e regulatórios para a implementação do Pix Internacional (pagamentos transfronteiriços) nos próximos anos?"
